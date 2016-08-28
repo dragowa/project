@@ -1,16 +1,24 @@
 <!DOCTYPE html>
+<html lang="ru">
 <html>
   <head>
     <meta charset="utf-8">
     <title>My first progect</title>
     <link rel="stylesheet" type="Text/css" href="style.css">
+      <link href="css/bootstrap.css" rel="stylesheet">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
       <div id="wrapper">
-          <div id="header">
-            <div id="logo">
-              <a href="#"><img src="images/logo.png" alt="logo" /></a>
-            </div>
+        <div id="header">
+          <div class="container">
+            <div class="row">
+            <div class="col-md-3 col-sm-4 col-lg-4 col-xs-4">
+                  <div id="logo">
+                      <a href="#"><img src="images/logo.png" alt="logo" class="img-responsive" /></a>
+                    </div>
+                  </div>
+          <div class="col-md-6 col-sm-4 col-xs-8 col-lg-5">
             <div id="list">
               <ul>
                 <li><a href="#">О нас</a></li>
@@ -20,7 +28,10 @@
                 <li><a href="#">Контакты</a></li>
               <ul>
             </div>
-            <div id=reference>
+          </div>
+
+          <div class="col-md-3 col-sm-4 col-lg-3 col-xs-12">
+            <div id="reference">
                 <div id="top_reference">
                   <a href="#"><img src="images/call.png" alt="call" /></a>
                   <p> 0672256982 </p>
@@ -29,9 +40,14 @@
                   <a href="#"><img src="images/mail.png"  alt="mail" /></a>
                   <p> droa@gmail.com </p>
                 </div>
+              </div>
             </div>
           </div>
-          <div id="content">
+        </div>
+      </div>
+      <div id="content">
+        <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12" >
             <div id="top">
               <h1> Керамичские отопительные панели
               <p>  и терморегуляторы </p>
@@ -44,25 +60,39 @@
             </div>
             <div id="bot">
               <h3> Скидки каждый четверг, успей оформить заказ! </h3>
-              <div id="left">
-                <img src="images/hours.png"  alt="hours" />
-                <p> Часы </p>
+              <div class="row">
+              <div class="col-md-5 col-sm-5 col-lg-5 col-xs-4">
+                <div id="left">
+                  <img src="images/hours.png"  alt="hours" class="img-responsive"/>
+                  <p> Часы </p>
+                </div>
               </div>
-              <div id="center2">
-                <img src="images/min.png"  alt="min" />
-                <p> Минуты </p>
+              <div class="col-md-2 col-sm-2 col-lg-2 col-xs-4">
+                <div id="center2">
+                  <img src="images/min.png"  alt="min" class="img-responsive"/>
+                  <p> Минуты </p>
+                </div>
               </div>
-              <div id="right">
-                <img src="images/sec.png"  alt="sec" />
-                <p> Секунды </p>
+              <div class="col-md-5 col-sm-5 col-lg-5 col-xs-4">
+                <div id="right">
+                  <img src="images/sec.png"  alt="sec" class="img-responsive" />
+                  <p> Секунды </p>
+                </div>
               </div>
             </div>
+          </div>
             <div id="bot_2">
               <form action="#">
               <p><input type="submit" value="Оформить заказ"></p>
               </form>
             </div>
-          <div id="low_content">
+          </div>
+        </div>
+      </div>
+
+
+
+          <!-- <div id="low_content">
             <h3> Принцип работы керамической панели HyBRID </h3>
             <div id="low_content_image">
               <img src="images/panel.png" alt="panel">
@@ -377,6 +407,6 @@
                 <img src="images/vk.png">
             </div>
           </div>
-        </div>
+        </div> -->
   </body>
 </html>
