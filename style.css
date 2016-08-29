@@ -30,6 +30,10 @@ a {
   height: 740px;
 }
 
+a.menu {
+  display: block;
+  text-align: center;
+}
 
 #header {
  height: 110px;
@@ -37,98 +41,88 @@ a {
  padding-top: 15px;
 }
 
-#logo {
+.logo {
   height: 80px;
   width: 130px;
-  margin: auto;
+  text-align: center;
 }
+
+
 
 #list {
   height: 100px;
   margin: auto;
+  display: block;
+  text-align: center;
 }
 
 
-#list ul li {  box-sizing: border-box;
-    float: left;
-    margin-left: 20px;
-    list-style-type: none;
+
+#list ul {
+  margin: 0 auto;
 }
 
-
-#reference {
+.reference {
   width: 170px;
   height: 110px;
-  margin: auto;
-}
-
-#reference p {
-  float: right;
 }
 
 
-#bot_reference p {
+
+.top_reference p {
   padding-top: 10px;
 }
 
-#bot_reference {
+.bot_reference {
   margin-top: 10px;
 }
 
-#top_reference p {
-  padding-right: 30px;
-  padding-top: 10px;
+.top {
+  text-align: center;
 }
 
-#content {
-  height: 630px;
-  width: auto;
-  padding-top: 100px;
-}
-
-#top h1 {
+.top h1 {
   text-align: center;
   color: white;
 }
 
-#center h3 {
+.center h3 {
   text-align: center;
   color: white;
 }
 
-#center {
+.center {
   padding-top: 20px;
 }
 
-#bot {
-  padding-top: 40px;
+.low_center {
   text-align: center;
   color: white;
-  height: 210px;
 }
 
- #left {
+ .left {
   height: 95px;
   width: 81px;
   float: right;
   padding-top: 20px;
 }
 
-#center2 {
-height: 95px;
-width: 150px;
+.center2 {
 padding-top: 20px;
+display: block;
+margin: 0 auto;
 }
 
-#center2 img {
-  margin: 0 auto;
+.center2 img {
+  display: block;
+  text-align: center;
 }
 
-#center2 p {
+.center2 p {
     padding-left: 10px;
 }
 
-#right {
+.right {
   height: 95px;
   width: 81px;
   padding-top: 20px;
