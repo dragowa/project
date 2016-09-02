@@ -32,7 +32,7 @@ a {
 
 a.menu {
   display: block;
-  text-align: center;
+  text-align: center
 }
 
 #header {
@@ -40,6 +40,7 @@ a.menu {
  width: auto;
  padding-top: 15px;
 }
+
 
 .logo {
   height: 80px;
@@ -57,13 +58,13 @@ a.menu {
 }
 
 
-
 #list ul {
   margin: 0 auto;
 }
 
 .reference {
   height: 110px;
+  margin-left: 40px;
 }
 
 .top_reference p {
@@ -72,6 +73,16 @@ a.menu {
 
 .bot_reference {
   margin-top: 10px;
+}
+
+.top_reference img {
+  height: 39px;
+  width: 39px;
+}
+
+.bot_reference img {
+  height: 39px;
+  width: 39px;
 }
 
 .top {
@@ -98,40 +109,58 @@ a.menu {
 }
 
  .left {
-  height: 95px;
-  width: 81px;
-  float: right;
   padding-top: 20px;
+
 }
 
+.left img {
+  float: right;
+  height: 75px;
+  width: 81px;
+}
+
+.left p {
+  float: right;
+}
+
+
+
 .center2 {
-padding-top: 20px;
-display: block;
-margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
 }
 
 .center2 img {
   display: block;
-  text-align: center;
+  margin: auto;
+  height: 75px;
+  width: 81px;
 }
 
 .center2 p {
-    padding-left: 10px;
+  margin-left: 30px;
 }
 
 .right {
-  height: 95px;
-  width: 81px;
   padding-top: 20px;
   float: left;
 }
 
-#bot_2 {
+.right p {
+  margin-left: 10px;
+}
+
+.right img {
+  height: 75px;
+  width: 81px;
+}
+
+.top_4 {
   padding-top: 20px;
 
 }
 
-#bot_2 input {
+.top_4 input {
   height: 60px;
   width: 250px;
   background-color: yellow;
